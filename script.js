@@ -1,20 +1,40 @@
 // Ajout de la fonction affichePopup sur chaque case
+const cases = document.getElementsByClassName('case');
+for (let i = 0; i < cases.length; i++) {
+    cases[i].addEventListener("click", function () {
+        affichePopup("assets/fenetre_gagnants.svg");
+    });
+}
+document.getElementById("fermer").onclick = function () {
+    fermerPopup();
+};
+
 
 // Fonction qui ouvre une pop up
-function affichePopup(id, url) {
-    var url = "img/fenêtres/fenêtre_gagnant.svg"; //test
-    if(url == "img/fenêtres/fenêtre_gagnant.svg"){
-        var audio = new Audio("music/son_gagnant.mp3");
-        audio.play();
+function affichePopup(url) {
+    if(url === "assets/fenêtre_gagnant.svg"){
+
     }
-    var fenêtre = document.getElementById("fenêtre");
-    var message = document.getElementById("message");
-    // Floutage du background
-    document.getElementById("calendrier").style.opacity = 0.05;
-    document.getElementById("header").style.opacity = 0.05;
-    document.getElementById("footer").style.opacity = 0.05;
+    const popup = document.getElementById("popup");
+    const message = document.getElementById("message");
+    document.getElementById("calendrier").style.pointerEvents = "none";
+    document.getElementById("calendrier-mobile").style.pointerEvents = "none";
     message.data = url;
-    fenêtre.style.display = "block";
-    fenêtre.style.animationName = "slide-in-bottom";
-    fenêtre.style.animationDuration = "2s";
+    setTimeout(function (){
+        document.getElementById("calendrier").style.opacity = "0.2";
+        document.getElementById("calendrier-mobile").style.opacity = "0.2";
+        document.getElementById("logo_calendrier").style.opacity = "0.2";
+        popup.style.display = "block";
+    }, 200);
+}
+
+// Fonction qui ferme une pop up
+function fermerPopup(){
+    document.getElementById("calendrier").style.opacity = "1";
+    document.getElementById("calendrier-mobile").style.opacity = "1";
+    document.getElementById("logo_calendrier").style.opacity = "1";
+    document.getElementById("calendrier").style.pointerEvents = "auto";
+    document.getElementById("calendrier-mobile").style.pointerEvents = "auto";
+    const popup = document.getElementById("popup");
+    popup.style.display = "none";
 }
