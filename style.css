@@ -1,0 +1,324 @@
+/* FONT */
+@font-face {
+    font-family: 'Mediametrie';
+    src: url('./font/Mediametrie.otf') format("opentype"),
+    url('./font/Mediametrie.ttf') format("truetype"),
+    url('./font/Mediametrie.eot') format("embedded-opentype"),
+    url('./font/Mediametrie.svg') format("svg"),
+    url('./font/Mediametrie.woff') format("woff");
+}
+
+/* CSS */
+* {
+    font-family: 'Mediametrie', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.centrer {
+    text-align: center;
+}
+
+#logo_calendrier {
+    margin: 1.5vw;
+    width: 15vw;
+}
+
+.case {
+    height: auto;
+}
+
+/* CALENDRIER DESKTOP */
+.calendrier-mobile {
+    display: none;
+}
+
+/* LIGNE 1 */
+.case13 {
+    width: 7vw;
+}
+
+.case6 {
+    width: 6vw;
+}
+
+.case22 {
+    width: 7.7vw;
+}
+
+.case7 {
+    width: 5vw;
+}
+
+.case16 {
+    width: 6.5vw;
+}
+
+.case8 {
+    width: 4vw;
+}
+
+.case23 {
+    width: 9vw;
+}
+
+/* LIGNE 2 */
+.case21 {
+    width: 7vw;
+    margin-top: 2vw;
+}
+
+.case14 {
+    width: 9.5vw;
+    margin-top: -1.5vw;
+}
+
+.case5 {
+    width: 5vw;
+    margin-top: -1.75vw;
+}
+
+.case25 {
+    width: 12vw;
+    margin-top: -3vw;
+}
+
+.case1 {
+    width: 6.5vw;
+}
+
+.case20 {
+    width: 7vw;
+    margin-top: -1vw;
+}
+
+/* LIGNE 3 */
+.case2 {
+    width: 12vw;
+    margin-top: 2vw;
+}
+
+.case18 {
+    width: 4.1vw;
+    margin-top: 2vw;
+}
+
+.case9 {
+    width: 8vw;
+    margin-top: -2vw;
+}
+
+.case19 {
+    width: 10vw;
+    margin-top: -2.5vw;
+}
+
+.case12 {
+    width: 7vw;
+    margin-top: 2vw;
+}
+
+.case3 {
+    width: 6vw;
+    margin-top: .75vw;
+}
+
+/* LIGNE 4 */
+.case24 {
+    width: 7vw;
+    margin-top: 1.5vw;
+}
+
+.case4 {
+    width: 9.3vw;
+    margin-top: 1.5vw;
+}
+
+.case11 {
+    width: 6vw;
+    margin-top: -0.75vw;
+}
+
+.case15 {
+    width: 6.5vw;
+    margin-top: -1.5vw;
+}
+
+.case10 {
+    width: 9vw;
+}
+
+.case17 {
+    width: 9.5vw;
+    margin-top: 2vw;
+}
+
+
+
+/* CALENDRIER MOBILE */
+@media screen and (max-width: 850px) {
+    body {
+        background-color: yellow;
+    }
+
+    #logo_calendrier {
+        margin: 6vw;
+        width: 40vw;
+    }
+
+    .calendrier {
+        display: none;
+    }
+
+    .calendrier-mobile {
+        display: block;
+    }
+
+    /* LIGNE 1 */
+    .case13 {
+        width: 13vw;
+    }
+
+    .case6 {
+        width: 12vw;
+    }
+
+    .case22 {
+        width: 13.7vw;
+    }
+
+    .case7 {
+        width: 11vw;
+    }
+
+    .case16 {
+        width: 12.5vw;
+    }
+
+    /* LIGNE 2 */
+    .case21 {
+        width: 14vw;
+        margin-top: 4vw;
+    }
+
+    .case14 {
+        width: 15.5vw;
+        margin-top: -1.5vw;
+    }
+
+    .case5 {
+        width: 12vw;
+        margin-top: -1.75vw;
+    }
+
+    .case25 {
+        width: 27vw;
+        margin-top: -3vw;
+    }
+
+    /* LIGNE 3 */
+    .case2 {
+        width: 22vw;
+        margin-top: 6vw;
+    }
+
+    .case18 {
+        width: 12.1vw;
+        margin-top: 3vw;
+    }
+
+    .case9 {
+        width: 16vw;
+        margin-top: 0;
+    }
+
+    .case19 {
+        width: 18vw;
+        margin-top: 0;
+    }
+
+    /* LIGNE 4 */
+    .case24 {
+        width: 17.5vw;
+        margin-top: 1.5vw;
+
+    }
+
+    .case4 {
+        width: 18.3vw;
+        margin-top: 6vw;
+
+    }
+
+    .case11 {
+        width: 12.5vw;
+        margin-top: -0.75vw;
+    }
+
+    .case15 {
+        width: 14vw;
+        margin-top: -1.5vw;
+
+    }
+
+    /* LIGNE 5 */
+    .case8 {
+        width: 10vw;
+        margin-top: 4vw;
+    }
+
+    .case1 {
+        width: 16vw;
+        margin-top: 6vw;
+    }
+
+    .case23 {
+        width: 24vw;
+        margin-top: 6vw;
+    }
+    .case17 {
+        width: 11vw;
+        margin-top: 6vw;
+    }
+
+    /* LIGNE 6 */
+    .case12 {
+        width: 15vw;
+        margin-top: 8vw;
+    }
+
+    .case3 {
+        width: 16vw;
+        margin-top: 6vw;
+    }
+
+    .case10 {
+        width: 18vw;
+        margin-top: 4vw;
+    }
+    .case20 {
+        width: 13vw;
+        margin-top: 5vw;
+    }
+}
+
+/* MENTIONS LEGALES */
+#mention_legales {
+    background-color: #416900;
+    position: absolute;
+    width: 100vw;
+    font-size: 0.85vw;
+    text-align: center;
+    bottom: 0;
+    padding: 0.25vw 0;
+}
+
+#mention_legales a {
+    padding-right: 1vw;
+    padding-left: 1vw;
+    color: white;
+    text-decoration: underline;
+}
