@@ -209,8 +209,6 @@ body {
     margin-top: 2vw;
 }
 
-
-
 /* CALENDRIER MOBILE */
 @media screen and (max-width: 850px) {
     body {
@@ -355,6 +353,46 @@ body {
     .case20 {
         width: 13vw;
         margin-top: 5vw;
+    }
+
+    .popup {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        width: auto;
+        height: 32vh;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #message {
+        height: 32vh;
+        width: auto;
+        position: relative;
+    }
+
+    #photo_cadeau {
+        position: absolute;
+        width: auto;
+        height: 8vh;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 47%;
+    }
+
+    #texte_photo {
+        font-weight: bold;
+        font-size: 2vw;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #fermer {
+        width: 4vw;
     }
 }
 
