@@ -25,6 +25,8 @@ function affichePopup(url) {
         document.getElementById("calendrier-mobile").style.opacity = "0.2";
         document.getElementById("logo_calendrier").style.opacity = "0.2";
         popup.style.display = "block";
+        document.getElementById("popup").style.animationName = "enter";
+        document.getElementById("popup").style.animationDuration = "1s";
     }, 200);
 }
 
