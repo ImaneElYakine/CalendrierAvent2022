@@ -360,7 +360,7 @@ body {
         position: absolute;
         z-index: 2;
         width: auto;
-        height: 32vh;
+        height: 25vh;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
@@ -368,7 +368,7 @@ body {
     }
 
     #message {
-        height: 32vh;
+        height: 25vh;
         width: auto;
         position: relative;
     }
