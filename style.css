@@ -24,7 +24,7 @@ body {
 
 #logo_calendrier {
     margin-top: 1vw;
-    width: 14vw;
+    width: 12vw;
 }
 
 #sous-titre {
@@ -220,8 +220,8 @@ body {
     }
 
     #logo_calendrier {
-        margin: 3vw;
-        width: 40vw;
+        margin-top: 6vw;
+        width: 50vw;
     }
 
     #son_on, #son_off {
@@ -231,7 +231,8 @@ body {
     }
 
     #sous-titre {
-   font-size: 3vw;
+    font-size: 4vw;
+    margin: 6vw 10vw;
     }
 
     .calendrier {
@@ -240,6 +241,7 @@ body {
 
     .calendrier-mobile {
         display: block;
+
     }
 
     /* LIGNE 1 */
@@ -260,113 +262,113 @@ body {
     }
 
     .case16 {
-        width: 12.5vw;
+        width: 16.5vw;
     }
 
     /* LIGNE 2 */
     .case21 {
         width: 14vw;
-        margin-top: 4vw;
+        margin-top: 1vw;
     }
 
     .case14 {
         width: 15.5vw;
-        margin-top: -1.5vw;
+        margin-top: -4.5vw;
     }
 
     .case5 {
         width: 12vw;
-        margin-top: -1.75vw;
+        margin-top: -5.75vw;
     }
 
     .case25 {
         width: 27vw;
-        margin-top: -3vw;
+        margin-top: -6vw;
     }
 
     /* LIGNE 3 */
     .case2 {
         width: 22vw;
-        margin-top: 6vw;
+        margin-top: -1vw;
     }
 
     .case18 {
         width: 12.1vw;
-        margin-top: 3vw;
+        margin-top: -3vw;
     }
 
     .case9 {
         width: 16vw;
-        margin-top: 0;
+        margin-top: -5vw;
     }
 
     .case19 {
         width: 18vw;
-        margin-top: 0;
+        margin-top: -5vw;
     }
 
     /* LIGNE 4 */
     .case24 {
-        width: 17.5vw;
-        margin-top: 1.5vw;
+        width: 20vw;
+        margin-top: -10vw;
 
     }
 
     .case4 {
-        width: 18.3vw;
-        margin-top: 6vw;
+        width: 20vw;
+        margin-top: -4vw;
 
     }
 
     .case11 {
-        width: 12.5vw;
-        margin-top: -0.75vw;
+        width: 14vw;
+        margin-top: -10vw;
     }
 
     .case15 {
         width: 14vw;
-        margin-top: -1.5vw;
+        margin-top: -10vw;
 
     }
 
     /* LIGNE 5 */
     .case8 {
-        width: 10vw;
-        margin-top: 4vw;
+        width: 12vw;
+        margin-top: -5vw;
     }
 
     .case1 {
-        width: 16vw;
-        margin-top: 6vw;
+        width: 18vw;
+        margin-top: -4vw;
     }
 
     .case23 {
-        width: 24vw;
-        margin-top: 6vw;
+        width: 25vw;
+        margin-top: -3vw;
     }
     .case17 {
-        width: 11vw;
-        margin-top: 6vw;
+        width: 14vw;
+        margin-top: -3vw;
     }
 
     /* LIGNE 6 */
     .case12 {
-        width: 15vw;
-        margin-top: 8vw;
+        width: 17vw;
+        margin-top: -3vw;
     }
 
     .case3 {
-        width: 16vw;
-        margin-top: 6vw;
+        width: 18vw;
+        margin-top: -4.5vw;
     }
 
     .case10 {
-        width: 18vw;
-        margin-top: 4vw;
+        width: 20vw;
+        margin-top: -6vw;
     }
     .case20 {
         width: 13vw;
-        margin-top: 5vw;
+        margin-top: -3vw;
     }
 
     .popup {
