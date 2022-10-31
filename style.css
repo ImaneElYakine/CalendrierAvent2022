@@ -212,7 +212,6 @@ body {
 /* CALENDRIER MOBILE */
 @media screen and (max-width: 850px) {
     body {
-        background-color: yellow;
     }
 
     #logo_calendrier {
@@ -399,17 +398,24 @@ body {
 /* MENTIONS LEGALES */
 #mention_legales {
     background-color: #416900;
-    position: absolute;
-    width: 100vw;
     font-size: 0.85vw;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
     bottom: 0;
-    padding: 0.25vw 0;
+    padding: 0.25vw;
 }
 
 #mention_legales a {
-    padding-right: 1vw;
-    padding-left: 1vw;
     color: white;
     text-decoration: underline;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+@media screen and (max-width: 850px) {
+    #mention_legales {
+        font-size: 2vw;
+    }
 }
