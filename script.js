@@ -1,4 +1,4 @@
-// Ajout de la fonction affichePopup sur chaque case
+// Ajout des events
 const cases = document.getElementsByClassName('case');
 for (let i = 0; i < cases.length; i++) {
     cases[i].addEventListener("click", function () {
@@ -8,6 +8,17 @@ for (let i = 0; i < cases.length; i++) {
 document.getElementById("fermer").onclick = function () {
     fermerPopup();
 };
+
+const audio = new Audio("audio/fond_sonore.mp3");
+
+document.getElementById("son_on").onclick = function () {
+    pauseFondSonore();
+};
+
+document.getElementById("son_off").onclick = function () {
+    playFondSonore();
+};
+
 
 
 // Fonction qui ouvre une pop up
@@ -39,4 +50,22 @@ function fermerPopup(){
     document.getElementById("calendrier-mobile").style.pointerEvents = "auto";
     const popup = document.getElementById("popup");
     popup.style.display = "none";
+}
+
+// Fonctions qui gère le fond sonore
+function playFondSonore(){
+    const son_off = document.getElementById("son_off");
+    const son_on = document.getElementById("son_on");
+    son_on.style.display = "block";
+    son_off.style.display = "none";
+    audio.loop = true;
+    audio.play();
+}
+
+function pauseFondSonore(){
+    audio.pause();
+    const son_off = document.getElementById("son_off");
+    const son_on = document.getElementById("son_on");
+    son_on.style.display = "none";
+    son_off.style.display = "block";
 }

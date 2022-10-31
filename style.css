@@ -23,7 +23,7 @@ body {
 }
 
 #logo_calendrier {
-    margin: 1.5vw;
+    margin: 1.15vw;
     width: 15vw;
 }
 
@@ -395,6 +395,28 @@ body {
     }
 }
 
+/* GESTION DU SON */
+.son_off {
+    position: absolute;
+    width: 1.75vw;
+    height: auto;
+    top: 1vw;
+    right: 1vw;
+}
+
+.son_on {
+    display: none;
+    position: absolute;
+    width: 2.25vw;
+    height: auto;
+    top: 1vw;
+    right: 1vw;
+}
+
+.son_off:hover, .son_on:hover {
+    cursor: pointer;
+}
+
 /* MENTIONS LEGALES */
 #mention_legales {
     background-color: #416900;
@@ -416,6 +438,6 @@ body {
 
 @media screen and (max-width: 850px) {
     #mention_legales {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
