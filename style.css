@@ -23,12 +23,12 @@ body {
 }
 
 #logo_calendrier {
-    margin-top: 1vw;
-    width: 12vw;
+    margin-top: 2vw;
+    width: 14vw;
 }
 
 #sous-titre {
-    margin-top: .5vw;
+    margin-top: 2vw;
     font-size: 0.95vw;
 }
 
@@ -96,7 +96,7 @@ body {
 
 /* LIGNE 1 */
 .case13 {
-    width: 7vw;
+    width: 6vw;
 }
 
 .case6 {
@@ -112,7 +112,7 @@ body {
 }
 
 .case16 {
-    width: 6.5vw;
+    width: 7vw;
 }
 
 .case8 {
@@ -120,23 +120,23 @@ body {
 }
 
 .case23 {
-    width: 9vw;
+    width: 9.75vw;
 }
 
 /* LIGNE 2 */
 .case21 {
     width: 7vw;
-    margin-top: 2vw;
+    margin-top: .5vw;
 }
 
 .case14 {
-    width: 9.5vw;
+    width: 8vw;
     margin-top: -1.5vw;
 }
 
 .case5 {
     width: 5vw;
-    margin-top: -1.75vw;
+    margin-top: -1.5vw;
 }
 
 .case25 {
@@ -145,38 +145,39 @@ body {
 }
 
 .case1 {
-    width: 6.5vw;
+    width: 7vw;
+    margin-top: 0vw;
 }
 
 .case20 {
     width: 7vw;
-    margin-top: -1vw;
+    margin-top: 0vw;
 }
 
 /* LIGNE 3 */
 .case2 {
-    width: 12vw;
-    margin-top: 2vw;
+    width: 11.5vw;
+    margin-top: -1vw;
 }
 
 .case18 {
-    width: 4.1vw;
-    margin-top: 2vw;
+    width: 6.51vw;
+    margin-top: -1vw;
 }
 
 .case9 {
-    width: 8vw;
-    margin-top: -2vw;
+    width: 7vw;
+    margin-top: -3.5vw;
 }
 
 .case19 {
-    width: 10vw;
-    margin-top: -2.5vw;
+    width: 7vw;
+    margin-top: -3.75vw;
 }
 
 .case12 {
-    width: 7vw;
-    margin-top: 2vw;
+    width: 8vw;
+    margin-top: .5vw;
 }
 
 .case3 {
@@ -187,31 +188,32 @@ body {
 /* LIGNE 4 */
 .case24 {
     width: 7vw;
-    margin-top: 1.5vw;
+    margin-top: -1vw;
 }
 
 .case4 {
     width: 9.3vw;
-    margin-top: 1.5vw;
+    margin-top: -1vw;
 }
 
 .case11 {
-    width: 6vw;
-    margin-top: -0.75vw;
+    width: 4.75vw;
+    margin-top: -1.5vw;
 }
 
 .case15 {
-    width: 6.5vw;
-    margin-top: -1.5vw;
+    width: 10vw;
+    margin-top: 0.5vw;
 }
 
 .case10 {
     width: 9vw;
+    margin-top: -2.75vw;
 }
 
 .case17 {
-    width: 9.5vw;
-    margin-top: 2vw;
+    width: 6vw;
+    margin-top: -.5vw;
 }
 
 /* CALENDRIER MOBILE */
