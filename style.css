@@ -23,8 +23,13 @@ body {
 }
 
 #logo_calendrier {
-    margin: 1.15vw;
-    width: 15vw;
+    margin-top: 1vw;
+    width: 14vw;
+}
+
+#sous-titre {
+    margin-top: .5vw;
+    font-size: 0.95vw;
 }
 
 .case {
@@ -215,8 +220,18 @@ body {
     }
 
     #logo_calendrier {
-        margin: 6vw;
+        margin: 3vw;
         width: 40vw;
+    }
+
+    #son_on, #son_off {
+        width: 5vw;
+        top: 2vw;
+        right: 2vw;
+    }
+
+    #sous-titre {
+   font-size: 3vw;
     }
 
     .calendrier {
