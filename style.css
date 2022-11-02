@@ -216,8 +216,157 @@ body {
     margin-top: -.5vw;
 }
 
+/* CALENDRIER TABLETTE */
+@media screen and (max-width: 800px) and (min-width: 451px) {
+    body {
+
+    }
+
+    #logo_calendrier {
+        margin-top: 6vw;
+        width: 30vw;
+    }
+
+    #son_on, #son_off {
+        width: 4vw;
+        top: 2vw;
+        right: 2vw;
+    }
+
+    #mention_legales a  {
+        font-size:2vw;
+    }
+
+    #sous-titre {
+        font-size: 3vw;
+        margin: 6vw 10vw;
+    }
+
+    /* LIGNE 1 */
+    .case13 {
+        width: 10vw;
+    }
+
+    .case6 {
+        width: 10vw;
+    }
+
+    .case22 {
+        width: 11.7vw;
+    }
+
+    .case7 {
+        width: 9vw;
+    }
+
+    .case16 {
+        width: 11vw;
+    }
+
+    .case8 {
+        width: 8vw;
+    }
+
+    .case23 {
+        width: 13.75vw;
+    }
+
+    /* LIGNE 2 */
+    .case21 {
+        width: 11vw;
+        margin-top: -1vw;
+    }
+
+    .case14 {
+        width: 12vw;
+        margin-top: -4.5vw;
+    }
+
+    .case5 {
+        width: 9vw;
+        margin-top: -5vw;
+    }
+
+    .case25 {
+        width: 20.5vw;
+        margin-top: -6vw;
+    }
+
+    .case1 {
+        width: 8.5vw;
+        margin-top: 1vw;
+    }
+
+    .case20 {
+        width: 14vw;
+        margin-top: -4.5vw;
+    }
+
+    /* LIGNE 3 */
+    .case2 {
+        width: 17vw;
+        margin-top: -2vw;
+    }
+
+    .case18 {
+        width: 10.51vw;
+        margin-top: -3vw;
+    }
+
+    .case9 {
+        width: 11vw;
+        margin-top: -5.5vw;
+    }
+
+    .case19 {
+        width: 13vw;
+        margin-top: -5.75vw;
+    }
+
+    .case12 {
+        width: 12vw;
+        margin-top: .5vw;
+    }
+
+    .case3 {
+        width:12vw;
+        margin-top: .75vw;
+    }
+
+    /* LIGNE 4 */
+    .case24 {
+        width: 13vw;
+        margin-top: -3vw;
+    }
+
+    .case4 {
+        width: 16vw;
+        margin-top: -2vw;
+    }
+
+    .case11 {
+        width: 8vw;
+        margin-top: -2.5vw;
+    }
+
+    .case15 {
+        width: 18vw;
+        margin-top: 0.5vw;
+    }
+
+    .case10 {
+        width: 11vw;
+        margin-top: -.5vw;
+    }
+
+    .case17 {
+        width: 9vw;
+        margin-top: 1vw;
+    }
+}
+
 /* CALENDRIER MOBILE */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 450px) {
     body {
     }
 
@@ -230,6 +379,10 @@ body {
         width: 5vw;
         top: 2vw;
         right: 2vw;
+    }
+
+    #mention_legales {
+        font-size: 3vw;
     }
 
     #sous-titre {
@@ -453,10 +606,4 @@ body {
     text-decoration: underline;
     margin-left: 1vw;
     margin-right: 1vw;
-}
-
-@media screen and (max-width: 850px) {
-    #mention_legales {
-        font-size: 3vw;
-    }
 }
