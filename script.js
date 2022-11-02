@@ -2,7 +2,7 @@
 const cases = document.getElementsByClassName('case');
 for (let i = 0; i < cases.length; i++) {
     cases[i].addEventListener("click", function () {
-        affichePopup("assets/fenetre_gagnants.svg");
+        affichePopup("assets/fenetre_erreur.svg");
     });
 }
 document.getElementById("fermer").onclick = function () {
@@ -23,18 +23,28 @@ document.getElementById("son_off").onclick = function () {
 
 // Fonction qui ouvre une pop up
 function affichePopup(url) {
-    if(url === "assets/fenêtre_gagnant.svg"){
-
-    }
     const popup = document.getElementById("popup");
     const message = document.getElementById("message");
     document.getElementById("calendrier").style.pointerEvents = "none";
     document.getElementById("calendrier-mobile").style.pointerEvents = "none";
     message.data = url;
     setTimeout(function (){
+        if(url === "assets/fenetre_gagnant.svg"){
+            const audio_gagnant = new Audio("audio/son_gagnant.mp3");
+            audio_gagnant.play();
+        }
+
+        if(url === "assets/fenêtre_perdant.svg" || url === "assets/fenetre_deja_joué.svg" || url === "assets/fenetre_erreur.svg"){
+            const audio_perdant = new Audio("audio/son_perdant.mp3");
+            audio_perdant.play();
+            document.getElementById("photo_cadeau").style.display = "none";
+            document.getElementById("texte_photo").style.display = "none";
+        }
+
         document.getElementById("calendrier").style.opacity = "0.2";
         document.getElementById("calendrier-mobile").style.opacity = "0.2";
-        document.getElementById("logo_calendrier").style.opacity = "0.2";
+        document.getElementById("mention_legales").style.opacity = "0.2";
+        document.getElementById("header").style.opacity = "0.2";
         popup.style.display = "block";
         document.getElementById("popup").style.animationName = "enter";
         document.getElementById("popup").style.animationDuration = "1s";
@@ -45,7 +55,8 @@ function affichePopup(url) {
 function fermerPopup(){
     document.getElementById("calendrier").style.opacity = "1";
     document.getElementById("calendrier-mobile").style.opacity = "1";
-    document.getElementById("logo_calendrier").style.opacity = "1";
+    document.getElementById("header").style.opacity = "1";
+    document.getElementById("mention_legales").style.opacity = "1";
     document.getElementById("calendrier").style.pointerEvents = "auto";
     document.getElementById("calendrier-mobile").style.pointerEvents = "auto";
     const popup = document.getElementById("popup");
