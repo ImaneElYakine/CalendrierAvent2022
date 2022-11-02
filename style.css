@@ -35,6 +35,8 @@ body {
 #sous-titre {
     margin: 2vw;
     font-size: 1vw;
+    color: #416900;
+    
 }
 
 .case {
@@ -609,7 +611,7 @@ body {
 
 #mention_legales a {
     color: #416900;
-    text-decoration: none;
+    text-decoration: underline;
     margin-left: 1vw;
     margin-right: 1vw;
 }
