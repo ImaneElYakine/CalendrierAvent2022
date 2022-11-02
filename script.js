@@ -2,7 +2,7 @@
 const cases = document.getElementsByClassName('case');
 for (let i = 0; i < cases.length; i++) {
     cases[i].addEventListener("click", function () {
-        affichePopup("assets/fenetre_erreur.svg");
+        affichePopup("assets/fenetre_gagnant.svg");
     });
 }
 document.getElementById("fermer").onclick = function () {
@@ -18,8 +18,6 @@ document.getElementById("son_on").onclick = function () {
 document.getElementById("son_off").onclick = function () {
     playFondSonore();
 };
-
-
 
 // Fonction qui ouvre une pop up
 function affichePopup(url) {
