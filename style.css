@@ -36,7 +36,6 @@ body {
     margin: 2vw;
     font-size: 1vw;
     color: #416900;
-    
 }
 
 .case {
@@ -242,7 +241,7 @@ body {
     }
 
     #mention_legales a  {
-        font-size:2vw;
+        font-size: 3vw;
     }
 
     #sous-titre {
@@ -389,8 +388,8 @@ body {
         right: 2vw;
     }
 
-    #mention_legales {
-        font-size: 3vw;
+    #mention_legales a {
+        font-size: 3.5vw;
     }
 
     #sous-titre {
