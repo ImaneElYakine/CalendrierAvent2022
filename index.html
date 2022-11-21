@@ -20,12 +20,32 @@
     <img id="son_on" class="son_on" src="assets/son_on.svg" alt="son on">
 </div>
 
-<!-- Fenêtre popup -->
+<!-- Fenêtre popup
 <div id="popup" class="popup">
     <object id="message" type="image/svg+xml"></object>
-    <img id="photo_cadeau" src="assets/cadeau/friteuse%20sans%20huile.png" alt="">
+        <div><img id="photo_cadeau" src="assets/cadeau/friteuse%20sans%20huile.png" alt=""></div>
+        <div><span id="texte_photo"> Friteuse sans huile </span></div>
     <input type="image" src="assets/close.svg" id="fermer" alt="">
-    <span id="texte_photo"> Friteuse sans huile </span>
+</div>
+-->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div id="modal-content" class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="info_cadeau">
+                    <div><img id="photo_cadeau" src="assets/cadeau/friteuse%20sans%20huile.png" alt=""></div>
+                    <div><span id="texte_photo"> Friteuse sans huile </span></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Calendrier -->
@@ -33,88 +53,88 @@
     <!-- Ligne 1 -->
     <div class="row g-2 justify-content-center">
         <div class="col-auto">
-            <img class=" case13 case" src="assets/cases/13.svg" alt="case 13">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class=" case13 case" src="assets/cases/13.svg" alt="case 13">
         </div>
         <div class="col-auto">
-            <img class="case case6" src="assets/cases/6.svg" alt="case 6">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case6" src="assets/cases/6.svg" alt="case 6">
         </div>
         <div class="col-auto">
-            <img class="case case22" src="assets/cases/22.svg" alt="case 22">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case22" src="assets/cases/22.svg" alt="case 22">
         </div>
         <div class="col-auto">
-            <img class="case case7" src="assets/cases/7.svg" alt="case 7">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case7" src="assets/cases/7.svg" alt="case 7">
         </div>
         <div class="col-auto">
-            <img class="case case16" src="assets/cases/16.svg" alt="case 16">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case16" src="assets/cases/16.svg" alt="case 16">
         </div>
         <div class="col-auto">
-            <img class="case case8" src="assets/cases/8.svg" alt="case 8">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case8" src="assets/cases/8.svg" alt="case 8">
         </div>
         <div class="col-auto">
-            <img class="case case23" src="assets/cases/23.svg" alt="case 23">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case23" src="assets/cases/23.svg" alt="case 23">
         </div>
     </div>
     <!-- Ligne 2 -->
     <div class="row g-2 justify-content-center">
         <div class="col-auto">
-            <img class="case case21" src="assets/cases/21.svg" alt="case 21">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case21" src="assets/cases/21.svg" alt="case 21">
         </div>
         <div class="col-auto">
-            <img class="case case14" src="assets/cases/14.svg" alt="case 14">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case14" src="assets/cases/14.svg" alt="case 14">
         </div>
         <div class="col-auto">
-            <img class="case case5" src="assets/cases/5.svg" alt="case 5">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case5" src="assets/cases/5.svg" alt="case 5">
         </div>
         <div class="col-auto">
-            <img class="case case25" src="assets/cases/25.svg" alt="case 25">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case25" src="assets/cases/25.svg" alt="case 25">
         </div>
         <div class="col-auto">
-            <img class="case case1" src="assets/cases/1.svg" alt="case 1">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case1" src="assets/cases/1.svg" alt="case 1">
         </div>
         <div class="col-auto">
-            <img class="case case20" src="assets/cases/20.svg" alt="case 20">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case20" src="assets/cases/20.svg" alt="case 20">
         </div>
     </div>
     <!-- Ligne 3 -->
     <div class="row g-2 justify-content-center">
         <div class="col-auto">
-            <img class="case case2" src="assets/cases/2.svg" alt="case 2">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case2" src="assets/cases/2.svg" alt="case 2">
         </div>
         <div class="col-auto">
-            <img class="case case18" src="assets/cases/18bis.svg" alt="case 18">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case18" src="assets/cases/18bis.svg" alt="case 18">
         </div>
         <div class="col-auto">
-            <img class="case case9" src="assets/cases/9.svg" alt="case 9">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case9" src="assets/cases/9.svg" alt="case 9">
         </div>
         <div class="col-auto">
-            <img class="case case19" src="assets/cases/19.svg" alt="case 19">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case19" src="assets/cases/19.svg" alt="case 19">
         </div>
         <div class="col-auto">
-            <img class="case case12" src="assets/cases/12.svg" alt="case 12">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case12" src="assets/cases/12.svg" alt="case 12">
         </div>
         <div class="col-auto">
-            <img class="case case3" src="assets/cases/3.svg" alt="case 3">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case3" src="assets/cases/3.svg" alt="case 3">
         </div>
     </div>
     <!-- Ligne 4 -->
     <div class="row g-2 justify-content-center">
         <div class="col-auto">
-            <img class="case case24" src="assets/cases/24.svg" alt="case 24">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case24" src="assets/cases/24.svg" alt="case 24">
         </div>
         <div class="col-auto">
-            <img class="case case4" src="assets/cases/4.svg" alt="case 4">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case4" src="assets/cases/4.svg" alt="case 4">
         </div>
         <div class="col-auto">
-            <img class="case case11" src="assets/cases/11.svg" alt="case 11">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case11" src="assets/cases/11.svg" alt="case 11">
         </div>
         <div class="col-auto">
-            <img class="case case10" src="assets/cases/10.svg" alt="case 10">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case10" src="assets/cases/10.svg" alt="case 10">
         </div>
         <div class="col-auto">
-            <img class="case case15" src="assets/cases/15.svg" alt="case 15">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case15" src="assets/cases/15.svg" alt="case 15">
         </div>
         <div class="col-auto">
-            <img class="case case17" src="assets/cases/17.svg" alt="case 17">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case17" src="assets/cases/17.svg" alt="case 17">
         </div>
     </div>
 </div>
@@ -124,96 +144,95 @@
     <!-- Ligne 1 -->
     <div class="row g-2 justify-content-center">
         <div class="col-auto">
-            <img class=" case13 case" src="assets/cases/13.svg" alt="case 13">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class=" case13 case" src="assets/cases/13.svg" alt="case 13">
         </div>
         <div class="col-auto">
-            <img class="case case6" src="assets/cases/6.svg" alt="case 6">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case6" src="assets/cases/6.svg" alt="case 6">
         </div>
         <div class="col-auto">
-            <img class="case case22" src="assets/cases/22.svg" alt="case 22">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case22" src="assets/cases/22.svg" alt="case 22">
         </div>
         <div class="col-auto">
-            <img class="case case7" src="assets/cases/7.svg" alt="case 7">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case7" src="assets/cases/7.svg" alt="case 7">
         </div>
         <div class="col-auto">
-            <img class="case case16" src="assets/cases/16.svg" alt="case 16">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case16" src="assets/cases/16.svg" alt="case 16">
         </div>
     </div>
     <!-- Ligne 2 -->
     <div class="row g-2 justify-content-center">
         <div class="col-auto">
-            <img class="case case21" src="assets/cases/21.svg" alt="case 21">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case21" src="assets/cases/21.svg" alt="case 21">
         </div>
         <div class="col-auto">
-            <img class="case case14" src="assets/cases/14.svg" alt="case 14">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case14" src="assets/cases/14.svg" alt="case 14">
         </div>
         <div class="col-auto">
-            <img class="case case5" src="assets/cases/5.svg" alt="case 5">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case5" src="assets/cases/5.svg" alt="case 5">
         </div>
         <div class="col-auto">
-            <img class="case case25" src="assets/cases/25.svg" alt="case 25">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case25" src="assets/cases/25.svg" alt="case 25">
         </div>
         <!-- Ligne 3 -->
         <div class="col-auto">
-            <img class="case case2" src="assets/cases/2.svg" alt="case 2">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case2" src="assets/cases/2.svg" alt="case 2">
         </div>
         <div class="col-auto">
-            <img class="case case18" src="assets/cases/18.svg" alt="case 18">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case18" src="assets/cases/18.svg" alt="case 18">
         </div>
         <div class="col-auto">
-            <img class="case case9" src="assets/cases/9.svg" alt="case 9">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case9" src="assets/cases/9.svg" alt="case 9">
         </div>
         <div class="col-auto">
-            <img class="case case19" src="assets/cases/19bis.svg" alt="case 19">
+            <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case19" src="assets/cases/19bis.svg" alt="case 19">
         </div>
         <!-- Ligne 4 -->
         <div class="row  g-2 justify-content-center">
             <div class="col-auto">
-                <img class="case case24" src="assets/cases/24.svg" alt="case 24">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case24" src="assets/cases/24.svg" alt="case 24">
             </div>
             <div class="col-auto">
-                <img class="case case4" src="assets/cases/4.svg" alt="case 4">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case4" src="assets/cases/4.svg" alt="case 4">
             </div>
             <div class="col-auto">
-                <img class="case case11" src="assets/cases/11.svg" alt="case 11">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case11" src="assets/cases/11.svg" alt="case 11">
             </div>
             <div class="col-auto">
-                <img class="case case15" src="assets/cases/15bis.svg" alt="case 15">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case15" src="assets/cases/15bis.svg" alt="case 15">
             </div>
         </div>
         <!-- Ligne 5 -->
         <div class="row g-2 justify-content-center">
             <div class="col-auto">
-                <img class="case case8" src="assets/cases/8.svg" alt="case 8">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case8" src="assets/cases/8.svg" alt="case 8">
             </div>
             <div class="col-auto">
-                <img class="case case1" src="assets/cases/1.svg" alt="case 1">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case1" src="assets/cases/1.svg" alt="case 1">
             </div>
             <div class="col-auto">
-                <img class="case case23" src="assets/cases/23.svg" alt="case 23">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case23" src="assets/cases/23.svg" alt="case 23">
             </div>
             <div class="col-auto">
-                <img class="case case17" src="assets/cases/17bis.svg" alt="case 17">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case17" src="assets/cases/17bis.svg" alt="case 17">
             </div>
         </div>
         <!-- Ligne 6 -->
         <div class="row g-2 justify-content-center">
             <div class="col-auto">
-                <img class="case case12" src="assets/cases/12.svg" alt="case 12">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case12" src="assets/cases/12.svg" alt="case 12">
             </div>
             <div class="col-auto">
-                <img class="case case3" src="assets/cases/3.svg" alt="case 3">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case3" src="assets/cases/3.svg" alt="case 3">
             </div>
             <div class="col-auto">
-                <img class="case case10" src="assets/cases/10.svg" alt="case 10">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case10" src="assets/cases/10.svg" alt="case 10">
             </div>
             <div class="col-auto">
-                <img class="case case20" src="assets/cases/20.svg" alt="case 20">
+                <img data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="case case20" src="assets/cases/20.svg" alt="case 20">
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- Mentions légales-->
 <footer id="mention_legales" class="footer">

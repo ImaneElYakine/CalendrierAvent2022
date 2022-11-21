@@ -50,53 +50,39 @@ body {
     transform: scale(1.1);
 }
 
+/* CALENDRIER DESKTOP */
 /* POPUP */
-.popup {
-    display: none;
-    position: absolute;
-    z-index: 2;
-    width: 50vw;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    animation: enter 2s linear;
+.modal-body {
+    min-height: 400px;
 }
 
-#message {
-    position: relative;
-    width: 50vw;
-    height: auto;
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-content {
+    border-radius: 0;
+    border : none;
+}
+
+#info_cadeau {
+    position: absolute;
+    left: 50%;
+    top: 160px;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 #photo_cadeau {
-    position: absolute;
     width: auto;
-    height: 20vh;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 45%;
+    height: 180px;
 }
 
 #texte_photo {
     font-family: Mediametrie, sans-serif;
     font-weight: bold;
     font-size: 1vw;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
 }
-
-#fermer {
-    position: absolute;
-    width: 1.5vw;
-    right: 0;
-    top: 0;
-}
-
-/* CALENDRIER DESKTOP */
 .calendrier-mobile {
     display: none;
 }
@@ -223,10 +209,31 @@ body {
     margin-top: -.5vw;
 }
 
-/* CALENDRIER TABLETTE */
-@media screen and (max-width: 800px) and (min-width: 451px) {
-    body {
 
+/* CALENDRIER TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    /* POPUP */
+    .modal-body {
+        min-height: 222px;
+    }
+
+    #info_cadeau {
+        position: absolute;
+        left: 50%;
+        top: 75px;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    #photo_cadeau {
+        width: auto;
+        height: 115px;
+    }
+
+    #texte_photo {
+        font-family: Mediametrie, sans-serif;
+        font-weight: bold;
+        font-size: 1vw;
     }
 
     #logo_calendrier {
@@ -373,8 +380,34 @@ body {
 }
 
 /* CALENDRIER MOBILE */
-@media screen and (max-width: 450px) {
-    body {
+@media screen and (max-width: 576px) {
+    /* POPUP */
+    .modal-body {
+        min-height: 130px;
+    }
+
+    .modal-dialog {
+        width: 340px;
+        margin: auto;
+    }
+
+    #info_cadeau {
+        position: absolute;
+        left: 50%;
+        top: 38px;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    #photo_cadeau {
+        width: auto;
+        height: 70px;
+    }
+
+    #texte_photo {
+        font-family: Mediametrie, sans-serif;
+        font-weight: bold;
+        font-size: 1.5vw;
     }
 
     #logo_calendrier {
@@ -532,46 +565,6 @@ body {
         width: 13vw;
         margin-top: -3vw;
     }
-
-    .popup {
-        display: none;
-        position: absolute;
-        z-index: 2;
-        width: auto;
-        height: 25vh;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-
-    #message {
-        height: 25vh;
-        width: auto;
-        position: relative;
-    }
-
-    #photo_cadeau {
-        position: absolute;
-        width: auto;
-        height: 8vh;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 47%;
-    }
-
-    #texte_photo {
-        font-weight: bold;
-        font-size: 2vw;
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    #fermer {
-        width: 4vw;
-    }
 }
 
 /* GESTION DU SON */
@@ -604,7 +597,7 @@ body {
     position: fixed;
     width: 100%;
     left: 0;
-    bottom: 0;
+    : 5%;
     padding: 0.25vw;
 }
 
@@ -613,4 +606,30 @@ body {
     text-decoration: underline;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+
+
+@media (width: 992px) {
+    #info_cadeau {
+        position: absolute;
+        left: 50%;
+        top: 160px;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    #photo_cadeau {
+        width: auto;
+        height: 180px;
+    }
+
+    #texte_photo {
+        font-family: Mediametrie, sans-serif;
+        font-weight: bold;
+        font-size: 1vw;
+    }
+
+    .modal-body {
+        min-height: 400px;
+    }
 }
